@@ -51,11 +51,13 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. It is a bar chart showing the Hisogram of Training, Validation and Test data sets.
 
-"Training Set Visualization"
+![alt text][image1] 
+![alt text][image2]
+![alt text][image3]
 
-![alt text][image1]
+
 
 ### Design and Test a Model Architecture
 
