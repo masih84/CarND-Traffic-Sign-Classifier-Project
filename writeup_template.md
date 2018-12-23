@@ -128,7 +128,7 @@ If a well known architecture was chosen:
 Here are five German traffic signs that I found on the web:
 
 ![alt text][image7]
-The first image might be difficult to classify because ...
+The images might be difficult to classify because they are in different size, with water mark and clear shape with no shadow.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -136,31 +136,65 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Slippery road      		| Slippery road   									| 
+| Speed limit (50km/h)     			| Speed limit (50km/h) 										|
+| Stop					| Stop											|
+|No passing	      		| Speed limit (30km/h)					 				|
+| Children crossing			| Speed limit (30km/h)      							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 60%. This compares favorably to the accuracy on the test set of ...
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For the first image, the model is relatively sure that this is a Slippery road (probability of 1.0), and the image does contain a Slippery road sign. The top three soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| 1.00         			| Slippery road   									| 
+| .00     				| Beware of ice/snow 										|
+| .00					| Right-of-way at the next intersection											|
 
 
-For the second image ... 
+For the second image, the model is relatively sure that this is a Speed limit (50km/h) (probability of 0.99), and the image does contain a Speed limit (50km/h) sign. The top three soft max probabilities were
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.00         			| Speed limit (50km/h)   									| 
+| .00     				| Speed limit (80km/h) 										|
+| .00					| Speed limit (100km/h)											|
+
+
+For the third image, the model is relatively sure that this is a Stop (probability of 1.00), and the image does contain a Stop sign. The top three soft max probabilities were
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.00         			| Stop  | 
+| .00     				| No vehicles|
+| .00					| Speed limit (80km/h)											|
+
+ For the forth and fifth image, the model is compeletly wrong. The signs are No passing and Children crossing. The top three soft max probabilities were
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.00         			| Stop  | 
+| .00     				| No vehicles|
+| .00					| Speed limit (80km/h)											|
+
+
+For the third image, the model is relatively sure that this is a Stop (probability of 1.00), and the image does contain a Stop sign. The top three soft max probabilities were
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+|0.72        			| speed limit (30km/h)  | 
+| 0.25    				| No vehicles|
+| 0.02 				| Stop|
+
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+|1.00        			| Speed limit (30km/h)  | 
+| 0.00    				| Speed limit (20km/h)|
+| 0.00 				| Bicycles crossing|
+
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
