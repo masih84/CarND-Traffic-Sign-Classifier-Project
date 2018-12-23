@@ -159,6 +159,7 @@ For the first image, the model is relatively sure that this is a Slippery road (
 
 
 For the second image, the model is relatively sure that this is a Speed limit (50km/h) (probability of 0.99), and the image does contain a Speed limit (50km/h) sign. The top three soft max probabilities were
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1.00         			| Speed limit (50km/h)   									| 
@@ -167,6 +168,7 @@ For the second image, the model is relatively sure that this is a Speed limit (5
 
 
 For the third image, the model is relatively sure that this is a Stop (probability of 1.00), and the image does contain a Stop sign. The top three soft max probabilities were
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1.00         			| Stop  | 
@@ -174,26 +176,28 @@ For the third image, the model is relatively sure that this is a Stop (probabili
 | .00					| Speed limit (80km/h)											|
 
  For the forth and fifth image, the model is compeletly wrong. The signs are No passing and Children crossing. The top three soft max probabilities were
+ 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1.00         			| Stop  | 
-| .00     				| No vehicles|
+| .00     				| No vehicles |
 | .00					| Speed limit (80km/h)											|
 
 
 For the third image, the model is relatively sure that this is a Stop (probability of 1.00), and the image does contain a Stop sign. The top three soft max probabilities were
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 |0.72        			| speed limit (30km/h)  | 
-| 0.25    				| No vehicles|
-| 0.02 				| Stop|
+| 0.25    				| No vehicles |
+| 0.02 				| Stop |
 
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 |1.00        			| Speed limit (30km/h)  | 
-| 0.00    				| Speed limit (20km/h)|
-| 0.00 				| Bicycles crossing|
+| 0.00    				| Speed limit (20km/h) |
+| 0.00 				| Bicycles crossing |
 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
