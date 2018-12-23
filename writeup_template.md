@@ -23,10 +23,10 @@ The goals / steps of this project are the following:
 [image4]: ./data_sample/Test_set.png "Training Set"
 [image5]: ./data_sample/Validation_set.png "Validation Set"
 [image6]: ./samples/sign0.jpg "Test Set 1"
-[image7]: ./samples/sign0.jpg "Test Set 2"
-[image8]: ./samples/sign0.jpg "Test Set 3"
-[image9]: ./samples/sign0.jpg "Test Set 4"
-[image10]: ./samples/sign0.jpg "Test Set 5"
+[image7]: ./samples/sign1.jpg "Test Set 2"
+[image8]: ./samples/sign2.jpg "Test Set 3"
+[image9]: ./samples/sign3.jpg "Test Set 4"
+[image10]: ./samples/sign4.jpg "Test Set 5"
 
 
 ## Rubric Points
