@@ -50,13 +50,17 @@ I used the pandas library to calculate summary statistics of the traffic signs d
 
 Here is an exploratory visualization of the data set. It is a bar chart showing the Hisogram of Training, Validation and Test data sets.
 
+##### Training Set: 
 ![alt text][image1] 
-![alt text][image2]
-![alt text][image3]
-
-
 ![alt text][image4] 
+
+##### Validation Set: 
+
+![alt text][image2]
 ![alt text][image5]
+
+##### Test Set: 
+![alt text][image3]
 ![alt text][image6]
 
 ### Design and Test a Model Architecture
