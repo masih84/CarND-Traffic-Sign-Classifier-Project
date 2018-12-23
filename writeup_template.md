@@ -22,7 +22,8 @@ The goals / steps of this project are the following:
 [image3]: ./data_sample/Test_set_Histogram.png "Test Set Visualization"
 [image4]: ./data_sample/Test_set.png "Training Set"
 [image5]: ./data_sample/Validation_set.png "Validation Set"
-[image6]: ./samples/Real_Test.png "Test Set"
+[image6]: ./data_sample/Test_set.png "Test Set"
+[image7]: ./samples/Real_Test.png "Final Test Set"
 
 
 
@@ -126,7 +127,7 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image6]
+![alt text][image7]
 The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
