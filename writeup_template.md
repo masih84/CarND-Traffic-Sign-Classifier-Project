@@ -20,11 +20,14 @@ The goals / steps of this project are the following:
 [image1]: ./data_sample/Training_set_Histogram.png "Training Set Visualization"
 [image2]: ./data_sample/Validation_set_Histogram.png "Validation Set Visualization"
 [image3]: ./data_sample/Test_set_Histogram.png "Test Set Visualization"
-[image4]: ./data_sample/Test_set.png "Traffic Sign 1"
-[image5]: ./data_sample/Test_set.png "Traffic Sign 2"
-[image6]: ./data_sample/Validation_set.png "Traffic Sign 3"
-[image7]: ./examples/Training set.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image4]: ./data_sample/Test_set.png "Training Set"
+[image5]: ./data_sample/Validation_set.png "Validation Set"
+[image6]: ./samples/sign0.jpg "Test Set 1"
+[image7]: ./samples/sign0.jpg "Test Set 2"
+[image8]: ./samples/sign0.jpg "Test Set 3"
+[image9]: ./samples/sign0.jpg "Test Set 4"
+[image10]: ./samples/sign0.jpg "Test Set 5"
+
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -98,14 +101,14 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+To train the model, I used a Bach size of 100, learning rate of 0.0005. Also, I used REGULARIZATION PARAM of 1e-5 to penalize large weights.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
-* test set accuracy of ?
+* training set accuracy of 100%
+* validation set accuracy of 97.6% 
+* test set accuracy of 95.7%
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
