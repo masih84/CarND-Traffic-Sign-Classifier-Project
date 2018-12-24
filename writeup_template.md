@@ -125,10 +125,10 @@ Size of layer, learning rate, bachsize are tunned by Trial and error.
 Not using drop out made the model over-fitted.
 
 If a well known architecture was chosen:
-* What architecture was chosen?
-* Why did you believe it would be relevant to the traffic sign application?
+* What architecture was chosen? No spesific architecture used.
+* Why did you believe it would be relevant to the traffic sign application? AN
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
- 
+ The high accuracy percentage of validation and test shows the model is working.
 
 ### Test a Model on New Images
 
